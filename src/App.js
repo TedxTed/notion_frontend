@@ -1,7 +1,7 @@
 import "./App.css";
 import Sidebar from "./component/Sidebar";
 import Title from "./component/Title";
-import View from "./component/View";
+import TextEditor from "./component/TextEditor";
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 
 			<div className="w-4/5 h-screen   border border-green-500">
 				<Title />
-				<View />
+				<TextEditor />
 			</div>
 		</div>
 	);
